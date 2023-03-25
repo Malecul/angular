@@ -1,0 +1,7 @@
+<app-search class="row mb-5"></app-search>
+<div class="row">
+  <h5 class="col">Рекомендации для вас</h5>
+</div>
+<div class="row">
+  <app-product *ngFor="let product of products" [product]="product" class="card col-sm-12 col-md-6 col-lg-3 border-0"></app-product>
+</div>

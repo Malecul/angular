@@ -1,0 +1,12 @@
+.product-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-card{
+  transition: all 0.3s;
+}
+.product-card:hover{
+  background: #eaf3ff;
+  transition: all 0.3s;
+}
