@@ -1,7 +1,7 @@
   <a href="#" class="card-body text-decoration-none btn text-start mb-3 product-card">
     <img class="w-100 mb-2" [src]="product.image" [alt]="product.name">
     <p class="h4 text-primary product-title">{{product.name}}</p>
-    <p class="h4 text-dark">{{product.price}}</p>
+    <p class="h4 text-dark">{{product.price | currency: 'RUB '}}</p>
 
     <p class="text-center">
       <p-button label="{{isVisible? 'Скрыть' : 'Показать'}}" styleClass="p-button pt-1 pb-1 ps-2 pe-2"
